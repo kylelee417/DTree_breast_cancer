@@ -1,2 +1,5 @@
 # DTree_breast_cancer
-Data Visualization in different Decision Tree applications using breast cancer data
+
+The Area Under the Curve (AUC) was used to measure the classifier's skill in ranking a set of patterns accornding to the degree to which they belong to the positive class. However, this model is not mainly focused on performance assessment or parameter tuning. It was primarily focused on the model visualization when the true prediction (**Benign type**) is maximized for better and easier understanding.
+
+The data set is too small to have comparable results. Another downside is, it does not give as much detailed interpretation as the decision tree classifier. I have also simply tried a regression tree model because the binary classification for this cancer detection can be vary depending on the random values from each feature (believing in those characteristics driven from unexpected tumor cells division during the mitosis). I used the most 3 important feature outcomes from Random Forest to construct a 3D graph and a 2D heat map; however, it did not visually show correlations among the features. Therefore, it definitely needs some optimization works or another approach like the multivariate regression model as a next goal.
